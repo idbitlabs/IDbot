@@ -1,5 +1,6 @@
 from telegram import Update
-from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTy
+from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
+
 import re
 
 # Ganti dengan token bot kamu
@@ -46,5 +47,6 @@ async def main():
 if __name__ == "__main__":
     import asyncio
     asyncio.run(main())
+
 
 
