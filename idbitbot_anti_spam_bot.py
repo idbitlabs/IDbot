@@ -1,4 +1,4 @@
-rom telegram import Update
+from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTy>
 import re
 
@@ -46,3 +46,4 @@ async def main():
 if __name__ == "__main__":
     import asyncio
     asyncio.run(main())
+
